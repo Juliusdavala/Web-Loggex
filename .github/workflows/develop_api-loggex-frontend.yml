@@ -53,4 +53,4 @@ jobs:
           app-name: 'api-loggex-frontend'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82E61FD223E647BDB1D4D32437ADCEE2 }}
-          package: .
+          package:  'build'
